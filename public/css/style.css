@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: black;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+.navleft {
+    display:flex;
+    margin-left: 30px;
+}
+
+.navleft img {
+    width: 80px;
+}
+
+.navright {
+    margin-right: 30px;
+}
+.navright ul {
+    display: flex;
+}
+
+.navright ul li {
+    margin-left: 30px;
+    list-style: none;
+}
+
+.navright ul li a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.bannerhome {
+    padding-top: 50px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0280/9731/4921/files/HC1_HERO_bdc9d740-7749-4351-9a5b-dc93a9993dee.jpg?v=1573948924);
+    height: 600px;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bannerleft {
+    margin-left: 30px;
+    color:white;
+    width: 45%;
+    text-shadow: 2px 2px 0px black;
+}
+
+.bannerleft h1 {
+    font-weight: bold;
+    font-size: 48px;
+}
+.bannerleft h3 {
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 10px;
+}
+.bannerleft p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.bannerright {
+    margin-right: 30px;
+    width: 49%;
+    display: flex;
+}
+
+.bannerright .formcontainer {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.bannerright form {}
+
+.bannerright form h3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+input:focus {
+    outline-color: #f18e43;
+}
+
+.input1 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input2 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.checkin {
+    width: 48%
+}
+
+.checkout {
+    width: 49%;
+}
+
+.adultos {
+    width: 48%
+}
+
+.ninos {
+    width: 49%;
+}
+
+.button {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: #f18e43;
+    border-radius: 10px;
+}
+
+.experiencia h2 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.logos {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.logos img {
+    height: 70px;
+}
+
+.logos h3 {
+    margin-top: 10px;
+}
+
+.logos p {
+    margin-top: 10px;
+}
+
+.logocontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    width: 30%;
+}
+
+.button2 {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.button2 button {
+    width: 300px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: #f18e43;
+    border-radius: 10px;
+}
+
+.infosection {
+    margin-top: 80px;
+}
+
+.infocontainer {
+    display:flex;
+}
+
+.infoimage {
+    width: 50%;
+}
+
+.infoimage img {
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    width: 50%;
+    padding: 30px;
+    background-color: #e6e6e6;
+}
+
+.info p {
+    margin-top: 20px;
+}
+
+.info a button {
+    margin-top: 40px;
+}
+
+.bannerbottom {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://www.jayco.com/images/landscapes/Landscape1_NoFog_1421774305.jpg);
+    width: 100%;
+    height: 400px;
+}
+
+#buttonbottom {
+    width: 400px;
+    height: 60px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: #f18e43;
+    border-radius: 10px;
+    font-size: 26px;
+}
+
+footer {
+    padding: 30px;
+}
+footer img {
+    height: 80px;
+}
+
+.footercontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerlinks {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footercontainer .footerlinks ul {
+    list-style: none;
+}
+
+.footercontainer .footerlinks ul li {
+    margin-top: 10px;
+}
+
+.footercontainer .footerlinks ul li a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    
+}
+
+.copywright {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}
